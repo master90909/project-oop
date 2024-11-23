@@ -7,10 +7,19 @@
 1. **Objects**: 
    - An object is an instance of a **class**. It contains both **properties** (also called attributes or fields) and **methods** (functions or procedures that define behaviors).
    - For example, a `Car` object could have properties like `color`, `model`, and `year`, and methods like `start()` or `stop()`.
-   - (https://github.com/master90909/project-oop/blob/master90909/my-school-activity/LA/la_1.py)
+   ```python
+   class Person:
+      x = 5 
+   p1 = Person()    # creates an object (instance) of the Person class. 
+   ```
 2. **Classes**: 
    - A class is a blueprint or template for creating objects. It defines the properties and methods that the objects of that class will have.
    - For example, a `Car` class might define a method like `drive()` and properties like `engineType` or `color`.
+   ```python
+   class Person:   # is the definition of a class.
+      x = 5        # class attribute
+   p1 = Person()
+   ```
 
 3. **Encapsulation**: 
    - Encapsulation is the concept of hiding the internal state and requiring all interaction with an object's data to be done through well-defined methods. This helps prevent unintended interference and misuse of data.
